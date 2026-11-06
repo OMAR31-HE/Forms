@@ -6,3 +6,4 @@ urlpatterns = [
     path('', views.student, name='student'),
     path('students/', views.students, name='students'),
 ]
+#

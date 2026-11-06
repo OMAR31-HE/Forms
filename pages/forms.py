@@ -32,7 +32,7 @@ class StudentForm(forms.ModelForm):
             raise forms.ValidationError(
                 "University ID must contain exactly 9 digits."
             )
-
+#
         if str(university_id)[0] not in ['1', '2']:
             raise forms.ValidationError(
                 "University ID must start with 1 or 2."

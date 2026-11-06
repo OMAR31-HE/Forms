@@ -3,7 +3,7 @@ from django.shortcuts import render, redirect
 from .forms import StudentForm
 from .models import Student
 
-
+#
 def student(request):
     form = StudentForm(request.POST or None, request.FILES or None)
 
